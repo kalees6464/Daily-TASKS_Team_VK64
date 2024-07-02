@@ -128,7 +128,7 @@ export default function Home() {
           <Link
             href="/"
             style={{
-              backgroundColor: "#CB4747",
+              backgroundColor: "#22577A",
               paddingVertical: 15,
               paddingHorizontal: 100,
               fontSize: 18,
