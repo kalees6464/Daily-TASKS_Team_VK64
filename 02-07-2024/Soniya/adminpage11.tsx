@@ -3,10 +3,7 @@ import { SafeAreaView, StyleSheet, TextInput, View, Text } from "react-native";
 import { Link } from "expo-router";
 import Icon1 from "react-native-vector-icons/EvilIcons";
 import Icon2 from "react-native-vector-icons/Entypo";
-import Icon3 from "react-native-vector-icons/Feather";
-import Icon4 from "react-native-vector-icons/FontAwesome6";
 import Icon from "react-native-vector-icons/FontAwesome";
-// import Icon2 from "react-native-vector-icons/AntDesign";
 
 export default function HomeScreen() {
   return (
@@ -50,12 +47,6 @@ export default function HomeScreen() {
               textAlign: "center",
             }}
           ></TextInput>
-          <Icon
-            name="check-circle"
-            size={20}
-            color="#CB4747"
-            style={{ paddingTop: 8 }}
-          ></Icon>
         </View>
 
         <View
@@ -80,12 +71,6 @@ export default function HomeScreen() {
               textAlign: "center",
             }}
           ></TextInput>
-          <Icon2
-            name="circle"
-            size={20}
-            color="#CB4747"
-            style={{ paddingTop: 8 }}
-          ></Icon2>
         </View>
 
         <View
@@ -110,12 +95,6 @@ export default function HomeScreen() {
               textAlign: "center",
             }}
           ></TextInput>
-          <Icon
-            name="check-circle"
-            size={20}
-            color="#CB4747"
-            style={{ paddingTop: 8 }}
-          ></Icon>
         </View>
 
         <View
@@ -140,12 +119,6 @@ export default function HomeScreen() {
               textAlign: "center",
             }}
           ></TextInput>
-          <Icon
-            name="check-circle"
-            size={20}
-            color="#CB4747"
-            style={{ paddingTop: 8 }}
-          ></Icon>
         </View>
         <View
           style={{
@@ -169,31 +142,25 @@ export default function HomeScreen() {
               textAlign: "center",
             }}
           ></TextInput>
-          <Icon
-            name="check-circle"
-            size={20}
-            color="#CB4747"
-            style={{ paddingTop: 8 }}
-          ></Icon>
         </View>
       </View>
       <View style={{ padding: 20 }}>
         <Link
           href="/"
           style={{
-            backgroundColor: "#CB4747",
+            backgroundColor: "#22577A",
             textAlign: "center",
             fontSize: 18,
             fontWeight: "bold",
             color: "white",
             borderRadius: 10,
             height: 40,
-            paddingTop: 5,
+            paddingTop: 8,
             shadowColor: "black",
             shadowOffset: { width: 2, height: 4 },
           }}
         >
-          <Text>Verify</Text>
+          <Text>Submit</Text>
         </Link>
       </View>
     </SafeAreaView>
@@ -225,3 +192,4 @@ const styles = StyleSheet.create({
     width: "100%",
   },
 });
+
