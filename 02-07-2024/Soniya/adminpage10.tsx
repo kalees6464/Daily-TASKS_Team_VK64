@@ -45,7 +45,7 @@ export default function Home() {
           <Link
             href="/"
             style={{
-              backgroundColor: "#CB4747",
+              backgroundColor: "#22577A",
               paddingVertical: 15,
               paddingHorizontal: 100,
               fontSize: 18,
@@ -56,7 +56,7 @@ export default function Home() {
               shadowOffset: { width: 2, height: 4 },
             }}
           >
-            <Text>Submit</Text>
+            <Text>Next</Text>
           </Link>
         </View>
       </SafeAreaView>
